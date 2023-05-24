@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css" />
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="box">
+    <div class="title-box">
+      <img src="Images/logo.png" alt="Facebook">
+      <p>Facebook helps you connect and share with the people in your life.</p>
+    </div>
+    <div class="form-box">
+      <form>
+        <h2 class="first_title">Sign Up</h2>
+        <p class="first_sub_title">It's quick and easy.</p>
+        <hr />
+        <div class="input">
+          <input type="text" placeholder="First Name" class="first_name" id="firstname" required />
+          <input type="text" placeholder="Sure Name" class="sure_name" id="surename" required />
+          <br />
+          <input type="email" placeholder="Mobile number or email address" id="confidential" required />
+          <br />
+          <input type="password" placeholder="New password" id="password" required />
+          <br />
+        </div>
+        <p class="sub_title_2" id="sub_title">Date of Birth</p>
+        <select id="day">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+        </select>
+        <select id="month">
+          <option value="jan">Jan</option>
+          <option value="Feb">Feb</option>
+          <option value="Mar">Mar</option>
+          <option value="Apr">Apr</option>
+          <option value="May">May</option>
+          <option value="Jun">Jun</option>
+          <option value="Jul">Jul</option>
+          <option value="Aug">Aug</option>
+          <option value="Sep">Sep</option>
+          <option value="Oct">Oct</option>
+          <option value="Nov">Nov</option>
+          <option value="Dec">Dec</option>
+        </select>
+        <select id="year">
+          <option value="2022">2022</option>
+          <option value="2021">2021</option>
+          <option value="2020">2020</option>
+          <option value="2019">2019</option>
+          <option value="2018">2018</option>
+          <option value="2017">2017</option>
+          <option value="2016">2016</option>
+          <option value="2015">2015</option>
+          <option value="2014">2014</option>
+          <option value="2013">2013</option>
+          <option value="2012">2012</option>
+          <option value="2011">2011</option>
+          <option value="2010">2010</option>
+          <option value="2009">2009</option>
+          <option value="2008">2008</option>
+          <option value="2007">2007</option>
+          <option value="2006">2006</option>
+          <option value="2005">2005</option>
+          <option value="2004">2004</option>
+          <option value="2003">2003</option>
+          <option value="2002">2002</option>
+          <option value="2001">2001</option>
+          <option value="2000">2000</option>
+        </select>
+        <br />
+        <p class="sub_title_3">Gender</p>
+        <!-- <form id="gender"> -->
+        <div class="female" id="all_gender">
+          <label for="female"><b>Female</b> </label>
+          <input class="oneclick" type="radio" name="gender" value="female" id="fem" />
+        </div>
+        <div class="male" id="all_gender">
+          <label for="male"><b>Male</b></label>
+          <input class="oneclick" type="radio" name="gender" value="male" id="mard" />
+        </div>
+        <div class="other" id="all_gender">
+          <label for="other"><b>Custom</b></label>
+          <input class="oneclick" type="radio" name="gender" value="other" />
+        </div>
+        <!-- </form> -->
+        <br />
+        <p class="sub_title_4">
+          People who use our service may have upload your contact information to Facebook <a href="#"> Learn more</a>
+        </p>
+        <p class="sub_title_4">By clicking sign Up, you agree to our <a href="">Terms, Privacy Policy</a>and <a
+            href="">Cookies Policy</a>You may recieve SMS notification form us and can opt out at any time.
+        </p>
+        <div class="create-btn">
+          <a onclick="register()" target="_blank">Sign Up</a>
+        </div>
+      </form>
+
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+
+</html>
